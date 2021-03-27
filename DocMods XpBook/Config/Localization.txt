@@ -1,0 +1,3 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+XpBook,items,Item,,,"[DECEA3]Experience Book",,"[DECEA3]Erfahrungsbuch",
+XpBookDesc,items,Item,,,"A Book from the Old Times, which is rich in Experience.",,"Ein Buch aus der alten Zeit, welches Reich an Erfahrung ist.",

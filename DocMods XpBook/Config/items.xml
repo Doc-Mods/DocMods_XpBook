@@ -1,0 +1,25 @@
+<config>
+	
+	<append xpath="/items">
+
+		<item name="XpBook">
+			<property name="Extends" value="schematicMaster"/>
+			<property name="ItemTypeIcon" value="book"/>
+			<property name="CustomIcon" value="schematicMaster"/>
+			<property name="CustomIconTint" value="FFD700"/>
+			<property name="DescriptionKey" value="XpBookDesc"/>
+			<property name="Stacknumber" value="20"/>
+			<property name="EconomicValue" value="1000"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Use_time" value="..."/>
+				<property name="Sound_start" value="read_skillbook"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="1000"/> <!--You can adjust the value to whatever you want-->
+			</effect_group>
+		</item>
+
+	</append>
+</config>

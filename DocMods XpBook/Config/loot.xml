@@ -1,0 +1,11 @@
+<config>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='booksAllScaled']">
+		<item name="XpBook" count="1" prob="0.1"/>
+	</append>
+	
+		<append xpath="/lootcontainers/lootgroup[@name='booksRareOnlyScaled']">
+		<item name="XpBook" count="1" prob="0.01"/>
+	</append>
+
+</config>
